@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dawn-app
+  labels:
+    app: dawn-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dawn-app
+  template:
+    metadata:
+      labels:
+        app: dawn-app
+    spec:
+      containers:
+      - name: dawn-app
+        image: dawn:latest  # Placeholder; will be updated by CI/CD
+        ports:
+        - containerPort: 3000
