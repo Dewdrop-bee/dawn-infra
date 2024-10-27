@@ -1,0 +1,3 @@
+[submodule "projects/Server Performance/projects/Server Performance/Server-Performance-Stats"]
+	path = projects/Server Performance/projects/Server Performance/Server-Performance-Stats
+	url = https://github.com/Dewdrop-bee/Server-Performance-Stats.git
